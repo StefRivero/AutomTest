@@ -16,6 +16,9 @@ jobs:
         node-version: '14'
     - run: npm install
 
+    - name: Install playwright-qase-reporter
+      run: npm install playwright-qase-reporter
+
     - name: Install playwright
       run: npx playwright install  
 
