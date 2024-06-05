@@ -11,8 +11,8 @@ https://github.com/StefRivero/AutomTest
 npm install
 
 3. Configura tus credenciales de Qase en el archivo `.env`:
-QASE_API_TOKEN=193c717b0be9b96f24bda9c14a3ad063db5420d75469d461982d273740832a69
-QASE_PROJECT_CODE=SOLOTODO
+QASE_API_TOKEN= CONFIGURAR ENV
+QASE_PROJECT_CODE= CONFIGURAR ENV
 
 
 ## Uso
