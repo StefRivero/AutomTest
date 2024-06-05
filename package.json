@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "QASE_MODE=testops npx playwright test",
+    "test": "npx playwright test",
+    "test:qase": "QASE_MODE=testops npx playwright test",
     "test:report": "QASE_REPORT=1 npx playwright test",
     "test:ui": "npx playwright test --ui"
   },
