@@ -1,0 +1,19 @@
+{
+  "name": "playwright-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "QASE_MODE=testops npx playwright test",
+    "test:report": "QASE_REPORT=1 npx playwright test",
+    "test:ui": "npx playwright test --ui"
+  },
+  "keywords": [],
+  "author": "Estefany Rivero",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.44.1",
+    "@types/node": "^20.14.2",
+    "playwright-qase-reporter": "^2.0.1"
+  }
+}
