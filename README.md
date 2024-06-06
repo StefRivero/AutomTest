@@ -18,7 +18,9 @@ QASE_PROJECT_CODE= CONFIGURAR ENV
 ## Uso
 
 1. Ejecuta las pruebas:
+```
 npm test
+```
 
 ## Configuración de Qase
 
