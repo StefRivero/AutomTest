@@ -8,17 +8,23 @@ Este proyecto utiliza Playwright para automatizar pruebas de UI en navegadores w
 https://github.com/StefRivero/AutomTest
 
 2. Instala las dependencias:
+```
 npm install
-
-3. Configura tus credenciales de Qase en el archivo `.env`:
-QASE_API_TOKEN= CONFIGURAR ENV
-QASE_PROJECT_CODE= CONFIGURAR ENV
-
+npm install playwright-qase-reporter
+npx playwright install
+```
 
 ## Uso
 
 1. Ejecuta las pruebas:
-npm test
+```
+npm run test
+```
+
+2. Ejecuta las pruebas y reporte en Qase (local):
+```
+QASE_MODE=testops npx playwright test
+```
 
 ## Configuración de Qase
 
